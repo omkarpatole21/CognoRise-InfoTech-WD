@@ -1,0 +1,37 @@
+.calculator {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: min-content;
+        background-color: #f1f1f1;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+ 
+    .form {
+        margin: 40px auto 0 auto;
+    }
+ 
+    .input-value {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    #height,
+    #weight {
+        width: 400px;
+    }
+ 
+    #weight-unit,
+    #height-unit {
+        width: fit-content;
+    }
+ 
+    .input-value * {
+        margin: 0 5px;
+    }
